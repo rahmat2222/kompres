@@ -14,7 +14,7 @@
 <body>
     <!--Header-->
 <div class="header-menu">
-    <div class="header-logo"><img src="<?php echo base_url("assets/img/logo.jpg");?>" alt="Logo" id="logo"></div>
+    <div class="header-logo"><a href="<?php echo base_url();?>"> <img src="<?php echo base_url("assets/img/logo.jpg");?>" alt="Logo" id="logo"></a></div>
     <div class="header-slogan">Find the best place in Jabodetabek</div>
     <div class="header-tools">
         <?php if(!$this->session->userdata('logged_in')):?>
